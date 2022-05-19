@@ -16,14 +16,10 @@ public class CharArrayExample {
         System.out.println(count);
 
 
-
         //տպել մեջտեղի 2 սինվոլները
         char[] chars2 = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
-        for (int i = 0; i < chars2.length; i++) {
 
-        }
-        System.out.println(chars2[chars2.length / 2 - 1] + " " + chars2[chars2.length / 2]);
-
+        System.out.println(chars2[chars2.length / 2 - 1] + "" + chars2[chars2.length / 2]);
 
 
         //պետք է տպենք true եթե մեր մասիվը վերջանում է ly-ով, եթե ոչ՝ false
@@ -47,7 +43,6 @@ public class CharArrayExample {
                 System.out.println(false);
             }
         }
-
 
 
         //պետք է տպել մասիվի այն սինվոլները որոնք պռաբել չեն
